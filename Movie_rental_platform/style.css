@@ -85,9 +85,15 @@ ul.nav-left {
   white-space: nowrap;
 }
 
-/*background-color: #D9D9D9;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px; */
+.movie-row {
+  display: contents;
+}
+
+.movie-row .content-col {
+  background-color: #D9D9D9;
+  border-radius: 20px 0 0 20px;
+  padding: 10px;
+}
 
 .container img {
   width: 30px;
