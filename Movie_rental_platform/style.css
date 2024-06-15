@@ -86,12 +86,13 @@ ul.nav-left {
 }
 
 .movie-row {
-  display: contents;
+  display: grid;
+  grid-template-colums: repeat(5, 1fr);
+  background-color: #D9D9D9;
+  border-radius: 20px 0 0 20px;
 }
 
 .movie-row .content-col {
-  background-color: #D9D9D9;
-  border-radius: 20px 0 0 20px;
   padding: 10px;
 }
 
