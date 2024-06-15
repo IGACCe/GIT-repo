@@ -143,15 +143,16 @@ p {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  margin-left: 50px;
 }
 
 .profile-picture {
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .profile-picture img {
-  width: 100px; /* Adjust size of the profile picture */
-  height: 100px;
+  width: 150px; /* Adjust size of the profile picture */
+  height: 150px;
   border-radius: 50%; /* Round the profile picture */
   object-fit: cover; /* Maintain aspect ratio and cover the entire space */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to the picture */
@@ -159,37 +160,38 @@ p {
 
 .profile-details {
   flex: 1; /* Take remaining space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .profile-details p {
-  margin: 8px 0; /* Adjust spacing between profile details */
+  margin: 2px 0;
+  padding: 0;
   font-size: 16px; /* Increase font size for better readability */
-  color: #666666; /* Lighter text color for details */
+  color: #000000; 
 }
 
 .profile-actions {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   margin-top: 20px;
 }
 
 .profile-actions .reset-password {
-  margin-right: auto;
-}
-
-.profile-actions .reset-email {
-  margin-left: auto;
-}
-
-.profile-actions button {
-  background-color: #000000;
+  margin-left: 45px;
+  background-color: #4c4b4b;
   border: none;
   color: #FFFFFF;
   font-weight: bold;
-  padding: 10px 20px;
-  cursor: pointer;
+  padding: 10px 0px;
+  border-radius: 20px;
+  max-width: 150px;
 }
 
+.profile-actions .reset-email {
+  margin-left: 0px;
+}
 
 /*Responsive web design*/
 
