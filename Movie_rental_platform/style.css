@@ -141,6 +141,7 @@ p {
 
 .profile-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 20px;
   margin-left: 50px;
@@ -190,7 +191,8 @@ p {
 }
 
 .profile-actions .reset-email {
-  margin-left: 0px;
+  margin-left: 15px;
+  width: auto;
 }
 
 /*Responsive web design*/
