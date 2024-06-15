@@ -144,11 +144,42 @@ body {
 
 /* Styles for devices with a minimum width of 600px */
 @media (min-width: 600px) {
-    body {
+  body {
         font-size: 18px;
     }
-}
+  
+  .navbar {
+    flex-direction: column; /* Stack navbar items vertically */
+    padding: 10px; /* Adjust padding for better spacing */
+  }
 
+  nav a {
+    padding: 8px 10px; /* Adjust padding for better touch target */
+  }
+
+  .grid-container {
+    flex-direction: column; /* Stack grid items vertically on smaller screens */
+  }
+
+  .header-col, .content-col {
+    flex: 1 1 100%; /* Ensure columns take full width on smaller screens */
+    text-align: left; /* Adjust text alignment for better readability */
+  }
+
+  .movie-row .button-col {
+    text-align: center; /* Center align button on smaller screens */
+  }
+
+  .container button {
+    padding: 10px; /* Adjust button padding for smaller screens */
+  }
+
+  .footer {
+    flex-direction: column; /* Stack footer items vertically */
+    text-align: center; /* Center align text in footer */
+    padding: 10px; /* Adjust padding for better spacing */
+  }
+}
 /* Styles for devices with a minimum width of 1024px */
 @media (min-width: 1024px) {
     body {
