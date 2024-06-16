@@ -206,11 +206,12 @@ button.remove-button {
 }
 
 .content-col .content-col2 {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   background-color: #FFFFFF;
   text-align: center;
+  width: 100%;
 }
 
 .content-col3, .content-col4 {
@@ -292,13 +293,12 @@ button.register-button {
 /* Styles for devices with a minimum width of 600px */
 @media (max-width: 600px) {
   body {
-        font-size: 14px;
-    }
+    font-size: 14px;
+  }
 }
-
 /* Styles for devices with a minimum width of 1024px */
 @media (min-width: 1024px) {
-    body {
-        font-size: 20px;
-    }
+  body {
+    font-size: 20px;
+  }
 }
