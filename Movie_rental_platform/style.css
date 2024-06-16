@@ -211,16 +211,15 @@ button.remove-button {
   justify-content: center;
   background-color: #FFFFFF;
   text-align: center;
-  width: 100%;
+  width: calc(100% - 40px);
 }
 
 .content-col3, .content-col4 {
   background-color: #000000;
   color: #FFFFFF;
   padding: 4px 8px;
-  cursor: pointer;
   display: flex;
-  align-items: center;
+  align-items:center;
   justify-content: center;
 }
 
