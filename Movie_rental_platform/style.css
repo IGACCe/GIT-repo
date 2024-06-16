@@ -210,8 +210,6 @@ button.remove-button {
   justify-content: center;
   background-color: #FFFFFF;
   text-align: center;
-  padding: 4px;
-  border-radius: 5px;
 }
 
 .content-col3, .content-col4 {
@@ -226,14 +224,10 @@ button.remove-button {
 
 .content-col3 {
   margin-right: 5px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
 }
 
 .content-col4 {
   margin-left: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
 }
 
 .content-time {
