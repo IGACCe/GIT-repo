@@ -191,8 +191,45 @@ p {
 }
 
 .profile-actions .reset-email {
-  margin-left: 15px;
-  width: auto;
+  margin-left: 30px;
+  background-color: #4c4b4b;
+  border-radius: 20px;
+  max-width: 150px;
+}
+
+/*login style*/
+
+.login-form { 
+  background-color: #FFFFFF; 
+  border-radius: 20px; 
+  width: 300px;
+  text-align: left;
+  padding: 25px;
+  margin: 30px;
+}
+
+button.login-button {
+  background-color: #4c4b4b;
+  border: none;
+  color: #FFFFFF;
+  border-radius: 20px;
+  padding: 5px 35px;
+  margin: 10px 80px;
+  text-wrap: none;
+}
+
+button.register-button {
+  background-color: #4c4b4b;
+  border: none;
+  color: #FFFFFF;
+  border-radius: 20px;
+  padding: 5px 35px;
+  margin: 10px 80px;
+  text-wrap: none;
+}
+
+.input-goup {
+  text-size: 12px;
 }
 
 /*Responsive web design*/
