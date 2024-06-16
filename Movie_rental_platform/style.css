@@ -199,6 +199,11 @@ p {
   max-width: 150px;
 }
 
+/*Your movies style*/
+button.remove-button {
+  background-color: #C93333;
+}
+
 /*login style*/
 
 .login-body {
