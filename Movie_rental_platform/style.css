@@ -124,8 +124,7 @@ ul.nav-left {
   display: flex;
   justify-content: space-between; 
   padding-top: 30px;
-  position: absolute;
-  bottom: 0;
+  padding-bottom: 30px;
   width: 100%;
 }
 
