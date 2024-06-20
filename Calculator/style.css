@@ -44,7 +44,7 @@ body {
 .operators {
   grid-column: span 1;
   border: 1px solid #bbb;
-  border-radius: 1px;
+  border-radius: 10px;
   width: 80px;
   text-align: center;
   padding: 10px;
@@ -67,7 +67,7 @@ body {
 .numbers {
   grid-column: span 1;
   border: 1px solid #ddd;
-  border-radius: 1px;
+  border-radius: 10px;
   width: 80px;
   text-align: center;
   padding: 10px;
@@ -91,7 +91,7 @@ body {
   grid-row: 3 / 7;
   grid-column: 4 / 5;
   border: 1px solid #3079ED;
-  border-radius: 1px;
+  border-radius: 10px;
   width: auto;
   text-align: center;
   align-items: stretch;
