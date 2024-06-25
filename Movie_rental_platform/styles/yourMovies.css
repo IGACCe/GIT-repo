@@ -1,0 +1,36 @@
+/*Your movies style*/
+button.remove-button {
+  background-color: #C93333;
+}
+
+.content-col .content-col2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  text-align: center;
+  max-width: 100px;
+}
+
+.content-col3, .content-col4 {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 4px 8px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.content-col3 {
+  margin-right: 5px;
+}
+
+.content-col4 {
+  margin-left: 5px;
+}
+
+.content-time {
+  margin: 0 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
